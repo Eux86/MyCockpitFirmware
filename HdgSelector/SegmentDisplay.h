@@ -12,5 +12,11 @@
 
 class SegDisplay {
 public:
-  static void write(int digit);
+  void write(int digit);
+  void setup();
+//private:
+  byte getDigit(int number);
+  void displayDigit(int number, int digitNumber);
+  void displayNumber(int number);
+  void shiftOut(int myDataPin, int myClockPin, byte myDataOut);
 };

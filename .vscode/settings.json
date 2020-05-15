@@ -1,0 +1,14 @@
+{
+  "files.associations": {
+    "algorithm": "cpp",
+    "bitset": "cpp",
+    "memory": "cpp",
+    "streambuf": "cpp",
+    "system_error": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp",
+    "xlocale": "cpp",
+    "xlocnum": "cpp",
+    "xutility": "cpp"
+  }
+}
